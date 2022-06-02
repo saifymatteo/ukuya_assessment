@@ -16,10 +16,10 @@ class UserModel {
       name: json?['name'] as String,
       username: json?['username'] as String,
       email: json?['email'] as String,
-      address: json?['address'] as Map<String, String>,
+      address: json?['address'] as Map<String, dynamic>,
       phone: json?['phone'] as String,
       website: json?['website'] as String,
-      company: json?['company'] as Map<String, String>,
+      company: json?['company'] as Map<String, dynamic>,
     );
   }
 
@@ -27,8 +27,8 @@ class UserModel {
   String? name;
   String? username;
   String? email;
-  Map<String, String>? address;
+  Map<String, dynamic>? address;
   String? phone;
   String? website;
-  Map<String, String>? company;
+  Map<String, dynamic>? company;
 }

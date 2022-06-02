@@ -7,6 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:ukuya_assessment/app/app.dart';
 import 'package:ukuya_assessment/l10n/l10n.dart';
 
@@ -23,6 +24,7 @@ class App extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(
           accentColor: AppColor.mainColor,
         ),
+        textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme),
       ),
       localizationsDelegates: const [
         AppLocalizations.delegate,
