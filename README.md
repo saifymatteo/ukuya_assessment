@@ -4,6 +4,8 @@
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 [![License: MIT][license_badge]][license_link]
 
+![Demo](https://raw.githubusercontent.com/saifymatteo/ukuya_assessment/master/.github/screenshot/main.png)
+
 Simple project for Ukuya Technical Assessment. The project requires these features:
 
 - Show a list of posts and provide a function to search the post title
